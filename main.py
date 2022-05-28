@@ -8,7 +8,7 @@ import datetime
 #此def是其他人的 但我忘記原作是誰
 def gettime():
     x = datetime.datetime.now()
-    err = datetime.timedelta(hours=6)
+    err = datetime.timedelta(hours=8) #改這行的數字可以改時差
     x += err
     y = x.year
     m = ['1月', '2月', '3月', '4月', '5月', '6月', '7月',
