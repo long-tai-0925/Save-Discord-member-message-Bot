@@ -2,10 +2,12 @@
 import discord
 # 從discord.ext中導入commands
 from discord.ext import commands
+# 導入datatime模組
 import datetime
 # 使用時請標示原作
 
-#此def是其他人的 但我忘記原作是誰
+# 此def是其他人的 但我忘記原作是誰
+# 我沒寫過def不知道意思，詳細介紹可以自行Google
 def gettime():
     x = datetime.datetime.now()
     err = datetime.timedelta(hours=8) #改這行的數字可以改時差
